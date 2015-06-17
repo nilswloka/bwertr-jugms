@@ -85,6 +85,7 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
  nils.wloka@codecentric.de
  @nilswloka
  http://www.bwertr.com
+ https://github.com/nilswloka/bwertr-jugms
 * Nützliche Bibliotheken
 - Bouncer (https://github.com/leonardoborges/bouncer) für Validierung
 - Tower (https://github.com/ptaoussanis/tower) für I18N
