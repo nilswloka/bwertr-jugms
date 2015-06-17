@@ -34,6 +34,8 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
 - [ ] Entwicklungstools
   lein-ring, ring-mock
 - [ ] lein-ring konfigurieren
+- [ ] Hello-World-Handler zeigen
+- [ ] Anwendung mit lein ring server starten
 - [ ] Cider starten
 ** Ring und Handler [0/3]
 - [ ] Test schreiben
@@ -41,7 +43,6 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
             [ring.mock.request :refer [request]])
   clojure-test-mode aktivieren und testen
 - [ ] Handler-Funktion implementieren
-- [ ] Anwendung mit lein ring server starten
 ** Routing mit Compojure [0/1]
 - [ ] Routen für Willkommen und Ergebnisse hinzufügen
   (:require [compojure.core :refer [defroutes GET])
@@ -77,30 +78,9 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
             [ring.middleware.session.cookie :refer [cookie-store]])
 - [ ] Bewertungs-Handler anpassen, um Session-Parameter zu setzen
 - [ ] Willkommens-Handler und -Seite anpassen, so dass Formular versteckt wird
-** Deployment [0/5]
-- [ ] WAR mit lein ring uberwar erzeugen
-- [ ] Tomcat starten
-- [ ] WAR in das webapp-Verzeichnis von Tomcat kopieren
-- [ ] Optional: OpenShift-Deployment, falls Internet vorhanden
+** Deployment [0/1]
+- [ ] Deployment nach Elastic Beanstalk
 ** Fragen?
  nils.wloka@codecentric.de
  @nilswloka
- http://bwertr-nwloka.rhcloud.com/bwertr/
-* Optional
-** Webanwendungen mit Friend absichern [0/5]
-- [ ] User-Modell implementieren
-  (:require [cemerick.friend.credentials :as credentials])
-- [ ] Authentifizierungs-Middleware mit basic-http workflow hinzufügen
-  (:require [cemerick.friend :as friend]
-            [cemerick.friend.credentials :as credentials]
-            [cemerick.friend.workflows :as workflows])
-- [ ] Bewertungsmodell um Frequenz erweitern
-- [ ] Admin-Handler und Admin-Seite hinzufügen
-- [ ] Admin-Seite absichern
-
-** HTTP API mit Liberator [0/3]
-- [ ] Bewertungs-Ressource anlegen
-  (:require [liberator.core :refer [defresource]]
-            [clojure.data.json :as json])
-- [ ] Route zu Ressourcen anlegen
-- [ ] Mit Curl die Ergebnisse anzeigen
+ http://www.bwertr.com
