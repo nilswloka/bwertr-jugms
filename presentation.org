@@ -70,7 +70,8 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
 - [ ] Handler für Bewertungen implementieren
 - [ ] Handler für Ergebnisse anpassen
 - [ ] wrap-params Middleware hinzufügen
-  (:require [ring.middleware.params :refer [wrap-params]])
+  (:require [ring.middleware.params :refer [wrap-params]]
+            [ring.middleware.keyword-params :refer [wrap-keyword-params)
 - [ ] Route für Bewertungen hinzufügen
 ** Session mit Ring [0/3]
 - [ ] Session-Middleware mit cookie-store konfigurieren
