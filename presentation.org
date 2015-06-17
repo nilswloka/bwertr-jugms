@@ -14,7 +14,7 @@
 MMMM     MMMMMMMMMMMMMMMMMMM     MMM,   
 MMM    .MMMMMMMMMMMMMMMMM       MMMM    
 MMM    =MMM                  .MMMMM                         @nilswloka
-MMM     MMM                 MMMMM+      
+MMM     MMM                 MMMMM+                   nils.wloka@codecentric.de
 MMM     MMMMMMMMMMMMMMMMMMMMMMMM        
 MMMM     .MMMMMMMMMMMMMMMMMMM.          
 .MMM                                    
@@ -61,24 +61,24 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
   (:require [compojure.route :as route])
 - [ ] Haupttemplate um Stylesheet ergänzen
   (:require [hiccup.page :refer [include-css]])
-** Formulardaten auswerten [0/8]
-- [ ] Formular zu Willkommensseite hinzufügen
+** Formulardaten auswerten [8/8]
+- [X] Formular zu Willkommensseite hinzufügen
   (:require [hiccup.form :refer [form-to label select-options submit-button]])
-- [ ] Danke-Seite implementieren
-- [ ] Ergebnis-Seite um Durchschnittsbewertung ergänzen
-- [ ] Ratings-Modell implementieren
-- [ ] Handler für Bewertungen implementieren
-- [ ] Handler für Ergebnisse anpassen
-- [ ] wrap-params Middleware hinzufügen
+- [X] Danke-Seite implementieren
+- [X] Ergebnis-Seite um Durchschnittsbewertung ergänzen
+- [X] Ratings-Modell implementieren
+- [X] Handler für Bewertungen implementieren
+- [X] Handler für Ergebnisse anpassen
+- [X] wrap-params Middleware hinzufügen
   (:require [ring.middleware.params :refer [wrap-params]]
             [ring.middleware.keyword-params :refer [wrap-keyword-params)
-- [ ] Route für Bewertungen hinzufügen
-** Session mit Ring [0/3]
-- [ ] Session-Middleware mit cookie-store konfigurieren
+- [X] Route für Bewertungen hinzufügen
+** Session mit Ring [3/3]
+- [X] Session-Middleware mit cookie-store konfigurieren
   (:require [ring.middleware.session :refer [wrap-session]]
             [ring.middleware.session.cookie :refer [cookie-store]])
-- [ ] Bewertungs-Handler anpassen, um Session-Parameter zu setzen
-- [ ] Willkommens-Handler und -Seite anpassen, so dass Formular versteckt wird
+- [X] Bewertungs-Handler anpassen, um Session-Parameter zu setzen
+- [X] Willkommens-Handler und -Seite anpassen, so dass Formular versteckt wird
 ** Deployment [0/1]
 - [ ] Deployment nach Elastic Beanstalk
 ** Fragen?
