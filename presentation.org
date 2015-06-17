@@ -85,3 +85,10 @@ MMMM     .MMMMMMMMMMMMMMMMMMM.
  nils.wloka@codecentric.de
  @nilswloka
  http://www.bwertr.com
+* Nützliche Bibliotheken
+- Bouncer (https://github.com/leonardoborges/bouncer) für Validierung
+- Tower (https://github.com/ptaoussanis/tower) für I18N
+- Compojure-API (https://github.com/metosin/compojure-api) für Swagger-kompatible REST APIs
+- Buddy (https://github.com/funcool/buddy) für Authentifizierung und Autorisierung
+- Reloaded (https://github.com/stuartsierra/reloaded) und Component (https://github.com/stuartsierra/component) 
+  als Workflow und Architektur für große Anwendungen (siehe auch https://github.com/nilswloka/hexagonal-bwertr als Beispiel)
